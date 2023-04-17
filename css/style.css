@@ -1,0 +1,123 @@
+*{
+padding: 0;
+margin: 0;
+}
+
+h3{
+    text-align: center;
+    padding: 2%;
+}
+
+.center-text{
+text-align: center;
+
+}
+
+.navbar li a:hover {
+
+transition: 500ms;
+background-color: #006bd6;
+}
+
+
+.navbar{
+    background-color: #2980F2;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+
+}
+
+.navbar a{
+    color: black;
+text-decoration: none;
+background-color: #78b1fd;
+border-radius: 20%;
+}
+
+
+.banner{
+    border: 30px;
+    border-color: black;
+}
+
+.container{
+ display: flex;
+flex-flow: row;
+justify-content: center;
+align-items: center; 
+}
+
+.container img{
+padding: 0.5%;
+
+width:250 ;
+height:329 ;
+margin: 0.5%;
+}
+
+.br-50{
+    border-radius: 50%;
+}
+
+.banner{
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    margin: 0  auto;
+}
+.banner h3{
+
+    justify-content: center;
+}
+
+.video{
+width: 70vh;
+height: 60vh;
+padding: 1%;
+padding-bottom: 6%;
+background-color: #2980D8;
+display: block;
+margin: 0 auto;
+justify-content: center;
+margin-bottom: 1%;
+}
+
+.rodape-itens{
+    display: flex;
+
+    justify-content: center;
+    align-items: center; 
+}
+
+.rodape-itens a {
+justify-content: center;
+align-items: center;
+display: flex;
+
+}
+
+.rodape-itens a img{
+    width: 8%;
+    height: 8%;
+}
+
+.container div form p{
+    margin-bottom: 3%;
+}
+
+.container div form textarea{
+    margin: 1%;
+}
+
+footer{
+    background-color: #2980F2;
+}
+
+.center-text p{
+    margin: 1%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
